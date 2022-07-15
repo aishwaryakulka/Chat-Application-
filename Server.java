@@ -28,7 +28,7 @@ class Server extends JFrame{
     private JLabel heading = new JLabel("Server Area");
     private JTextArea messageArea = new JTextArea();
     private JTextField messageInput = new JTextField();
-    private Font font = new Font("Robot",Font.TRUETYPE_FONT,25);
+    private Font font = new Font("Roboto",Font.TRUETYPE_FONT,25);
 
 
 
@@ -36,7 +36,7 @@ public Server()
 {
     try{
         server = new ServerSocket(7777);
-        System.out.println("server isready to accept");
+        System.out.println("server is ready to accept");
         System.out.println("waiting... ");
         socket = server.accept();
 
@@ -95,7 +95,7 @@ private void createGUI(){
     heading.setFont(font);
     messageArea.setFont(font);
     messageInput.setFont(font);
-    heading.setIcon(new ImageIcon("Chhat.png"));
+    heading.setIcon(new ImageIcon("logo.png"));
     heading.setHorizontalTextPosition(SwingConstants.CENTER);
     heading.setVerticalTextPosition(SwingConstants.BOTTOM);
     heading.setHorizontalAlignment(SwingConstants.CENTER);

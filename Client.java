@@ -27,7 +27,7 @@ public class Client extends JFrame{
     private JLabel heading = new JLabel("Client Area");
     private JTextArea messageArea = new JTextArea();
     private JTextField messageInput = new JTextField();
-    private Font font = new Font("Robot",Font.TRUETYPE_FONT,25);
+    private Font font = new Font("Roboto",Font.TRUETYPE_FONT,25);
 
 
 
@@ -99,7 +99,7 @@ public class Client extends JFrame{
         heading.setFont(font);
         messageArea.setFont(font);
         messageInput.setFont(font);
-        heading.setIcon(new ImageIcon("pic.png"));
+        heading.setIcon(new ImageIcon("logo.png"));
         heading.setHorizontalTextPosition(SwingConstants.CENTER);
         heading.setVerticalTextPosition(SwingConstants.BOTTOM);
         heading.setHorizontalAlignment(SwingConstants.CENTER);
