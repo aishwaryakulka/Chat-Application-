@@ -95,7 +95,7 @@ private void createGUI(){
     heading.setFont(font);
     messageArea.setFont(font);
     messageInput.setFont(font);
-    heading.setIcon(new ImageIcon("logo.png"));
+    heading.setIcon(new ImageIcon("logohhhh.png"));
     heading.setHorizontalTextPosition(SwingConstants.CENTER);
     heading.setVerticalTextPosition(SwingConstants.BOTTOM);
     heading.setHorizontalAlignment(SwingConstants.CENTER);
